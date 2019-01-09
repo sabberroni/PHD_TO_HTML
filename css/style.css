@@ -1,0 +1,249 @@
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color:#626262;
+}
+    /*header start*/
+header{
+	padding: 10px 0;
+	/*border: 1px solid red;*/
+}
+.wrapper{
+	width: 90%;
+	margin:0 auto;
+	/*border: 1px solid;*/
+	overflow:hidden;
+
+}
+.logo{
+	width:15%;
+	float:left;
+	/*border: 1px solid;*/
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.logo span {
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+	color:#000000;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+.menu{
+	width:70%;
+	float:right;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 50px;
+	display: block;
+	font-size: 14px;
+	color:#626262;
+	text-transform: uppercase;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+    /* header end*/
+    /*banner start*/
+#banner{}
+.banner_img{}
+.banner_img img{
+	width: 100%;
+}
+/*banner end*/
+/* getaway start*/
+#getaway{
+	padding: 70px 0 100;
+}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+	    margin-bottom: 85px;
+	    overflow: hidden;
+}
+.wrapper3{
+	width: 40%;
+	margin-bottom: 0 auto;
+	margin-bottom: 85px;
+	overflow: hidden;
+
+}
+.getaway_content{}
+.photo{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 45px;
+}
+.titel_text{
+	font-weight: 400;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.getaway_content .text{
+	font-size: 14px;
+	line-height: 25px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	margin-top: 45px;
+}	
+   /* getaway end*/
+   /*blog start*/
+#blog{}
+.singel{
+	width: 47%;
+	float: left;
+	/*border: 1px solid;*/
+	margin: 40px 0px;
+}
+.singel:nth-child(even){
+	margin-left: 5.5%;
+}
+.singel_img{
+	margin-bottom: -4%;
+}
+.singel_img img{
+	width: 100%;
+}
+/* blog end*/
+/* news start*/
+.newsletter{
+	background-color: #f0f0f0;
+	min-height: 290px;
+	margin-bottom:80px;
+}
+.newswrapper{
+	/*border:1px solid;*/
+	width:30%;
+	margin:0 auto;
+	padding: 70px 0;
+
+}
+.newsletter h2{
+	font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 60px;
+}
+.form{
+	text-align: center;
+	float: right;
+}
+input{
+	width: 300px;
+	font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    outline:none;
+    border:none;
+    border-bottom:2px solid #333333;
+    padding-left: 5px;
+
+}
+.form button{
+	background-color: transparent;
+	border:none;
+	border-bottom:2px solid #333333;
+	margin-left: -4px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    outline:none;
+    cursor:pointer;
+}
+/*news end*/
+
+/*button start here*/
+#button{
+	/*border:1px solid black;*/
+}
+.btn{
+	text-align: center;
+
+}
+button.news{
+	font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+	padding: 20px 40px;
+    border: 1px solid #626262;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    outline:none;
+}
+button.news:hover{
+	background-color:#626262;
+	color:white;
+	text-shadow: 1px 1px 1px black;
+	transition: .3s;
+}
+
+/*button end here*/
+/* fotter start*/
+footer{
+	background-color: #f0f0f0;
+	padding: 40px 0;
+}
+.trems{
+		width: 30%;
+	/*border: 1px solid;*/
+	float:left;
+}
+.trems ul, .icons ul{
+
+}
+.trems ul li, .icons ul li{
+	float: left;
+	list-style: none;
+}
+.trems ul li a, .icons ul li a{
+	text-decoration: none;
+	padding: 0 13px;
+	display: block;
+		color: #626262;
+}
+.trems ul li a{
+	color: #000000;
+	font-size: 18px;
+}
+.icons{
+	width: 30%;
+	/*border: 1px solid;*/
+	float:right;
+
+}
+.icons ul{
+	float: right;	
+}
+/*.icons ul li{}*/
+.icons ul li a:hover{
+	text-shadow: 1px 1px 1px red;
+	transition: .3s;
+}
+
+/*fotter end*/
+
